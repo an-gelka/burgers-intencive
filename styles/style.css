@@ -104,7 +104,9 @@ body {
   width: 45px;
   height: 45px;
   border-radius: 5px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   margin-left: auto;
   font-size: 18px;
@@ -272,7 +274,6 @@ body {
 
 .order-form {
   border: 1px solid #353535;
-  border-radius: 16px;
   background-color: #211A16;
   margin-top: 60px;
   width: 426px;
